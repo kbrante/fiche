@@ -3,6 +3,7 @@ body{
     background-image:url(../img/1.jpg);
 }
 h1 {
+    font-family: fantasy;
     color:red;
     font-size: 4em;
     border: 1px solid red;
@@ -11,7 +12,10 @@ h1 {
 label{
     color: #999;
     display:inline-block;
-    width:10em
+    width:10em;
+}
+ul{
+    margin: 2em;
 }
 li {
     color: #3d757a;
@@ -23,7 +27,7 @@ a:hover {
     color: yellow;
 }
 a:visited{
-    color:orange;
+    color:#362;
 }
 label.info{
     font-style: italic;
