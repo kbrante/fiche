@@ -22,10 +22,9 @@
 
                 <a href="https://www.facebook.com/keiko34"> <img src="./img/fb.jpg" alt="facebook"/> </a>
                 <a href="https://github.com/kbrante"><img src="./img/github.png" alt="github" /></a>
+                <
             </ul>
-            <p>
-                ceci est un paragraphe 
-            </p>
+
 
     </body>
 </html>

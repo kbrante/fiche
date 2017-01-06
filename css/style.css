@@ -1,6 +1,7 @@
 
 body{
     background-image:url(../img/1.jpg);
+    position: static;
 
 }
 h1 {
@@ -40,4 +41,8 @@ label.info{
 }
 label.address{
     font-weight: bold;
+}
+
+p {
+
 }
