@@ -1,0 +1,30 @@
+
+body{
+    background-image:url(../img/1.jpg);
+}
+h1 {
+    color:red;
+    font-size: 4em;
+    border: 1px solid black;
+}
+label{
+    color: #999;
+}
+li {
+    color: #3d757a;
+}
+a {
+    color: red;
+}
+a:hover {
+    color: yellow;
+}
+a:visited{
+    color:orange;
+}
+label.info{
+    font-style: italic;
+}
+label.address{
+    font-weight: bold;
+}
