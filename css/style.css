@@ -5,7 +5,8 @@ body{
 h1 {
     color:red;
     font-size: 4em;
-    border: 1px solid black;
+    border: 1px solid red;
+    text-align: center;
 }
 label{
     color: #999;
