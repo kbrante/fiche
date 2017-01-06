@@ -41,7 +41,3 @@ label.info{
 label.address{
     font-weight: bold;
 }
-#nickname{
-    from {background-color: red;}
-    to {background-color: yellow;}
-}
