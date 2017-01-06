@@ -9,6 +9,8 @@ h1 {
 }
 label{
     color: #999;
+    display:inline-block;
+    width:10em
 }
 li {
     color: #3d757a;
