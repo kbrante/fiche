@@ -1,7 +1,7 @@
 
 body{
     background-image:url(../img/1.jpg);
-    margin: 2em;
+
 }
 h1 {
     font-family: sans-serif;
@@ -20,7 +20,8 @@ label{
     width:10em;
 }
 ul{
-    margin: 2em;
+    text-align: left;
+    line-height: 2.0;
 }
 li {
     color: #3d757a;
@@ -39,4 +40,8 @@ label.info{
 }
 label.address{
     font-weight: bold;
+}
+#nickname{
+    from {background-color: red;}
+    to {background-color: yellow;}
 }

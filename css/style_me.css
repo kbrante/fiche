@@ -4,11 +4,14 @@ body{
     margin: 2em;
 }
 h1 {
-    font-family: cursive;
+    font-family: sans-serif;
     color:red;
     font-size: 5vw;
-    border: 1px solid red;
+    border: 2px solid red;
+    box-shadow: 10px 10px 5px #656565;
+    border-radius: 15px 50px 30px 5px;
     text-align: center;
+    background: linear-gradient(to right, red , black);
 
 }
 label{
