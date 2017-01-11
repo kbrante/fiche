@@ -7,7 +7,7 @@ body{
 h1 {
     font-family: sans-serif;
     color: black;
-    font-size: 5em;
+    font-size: 5vw;
     border: 2px solid red;
     box-shadow: 10px 10px 5px #656565;
     border-radius: 15px 50px 30px 5px;
@@ -27,8 +27,7 @@ nav a:hover{
 }
 nav li {
 
-    display: inline;
-    list-style-type: circle;
+    display: inline-block;
     padding: 1em 3em 1em 3em;
     border-bottom: 3px solid rgb(153, 161, 180);
     border-left: 3px solid rgb(153, 161, 180);
@@ -72,7 +71,7 @@ h2{
 }
 form{
     padding-top: 2em;
-    width: 40em;
+    width: 47vw;
     color: #3d757a;
 }
 label{
