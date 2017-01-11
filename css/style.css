@@ -6,7 +6,7 @@ body{
 }
 h1 {
     font-family: sans-serif;
-    color:red;
+    color: black;
     font-size: 5em;
     border: 2px solid red;
     box-shadow: 10px 10px 5px #656565;
@@ -14,47 +14,81 @@ h1 {
     text-align: center;
     background: linear-gradient(to right, red , yellow);
 }
-img{
+#karina{
     float: right;
+    margin-top: 5em;
 }
 ul{
     text-align: left;
+}
+nav a:hover{
+    font-size: 2em;
+    text-decoration: none;
 }
 nav li {
 
     display: inline;
     list-style-type: circle;
-    padding: 2em;
-
+    padding: 1em 3em 1em 3em;
+    border-bottom: 3px solid rgb(153, 161, 180);
+    border-left: 3px solid rgb(153, 161, 180);
+    border-right: 3px solid rgb(153, 161, 180);
+    border-radius: 25px;
 }
-nav a:hover{
-    text-decoration: none;
+nav li:hover{
+    animation-name: fond;
+    animation-duration: 4s;
+}
+@keyframes fond {
+    from {background-color: red;}
+    to {background-color: yellow;}
 }
 main li{
     color: #3d757a;
     list-style-type: circle;
+    margin-bottom: 1em;
+
 }
-a {
-    color: red;
+a{
+    color: rgb(78, 194, 54)
 }
 a:hover {
     color: yellow;
+
 }
 a:visited{
-    color:rgb(78, 194, 54);
+    color: rgb(78, 194, 54);
 }
 p{
-    color: #3d757a
+    color: #3d757a;
+    text-align: justify;
+    margin: 3em;
 }
 h2{
-    color: rgb(78, 194, 54)
+    display: inline;
+    color: rgb(78, 194, 54);
+    border-left: 3px solid rgb(153, 161, 180);
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 1em;
 }
 form{
+    padding-top: 2em;
     width: 40em;
     color: #3d757a;
 }
 label{
     display: inline-block;
     width: 15em;
+    margin-bottom: 1em;
 }
-input{margin-bottom: 1em;}
+input{
+    margin-bottom: 1em;
+}
+#moi{
+    margin-top: 4em;
+}
+
+footer{
+    margin-top: 2em;
+}
