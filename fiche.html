@@ -52,7 +52,27 @@
                 </section>
                 <section id="contact">
                     <h2>Contact</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <form action="http://live.codincamp.fr/mail.php" method="post">
+                    <fieldset>
+                        <legend>Vos informations</legend>
+                        <label for="nom">Nom</label>
+                        <input type="text" name="name" value="" id="nom">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" value="" id="prenom">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" value="" id="email">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Votre message</legend>
+                        <label for="objet">Objet</label>
+                        <input type="text" name="subject" value="a" id="objet">
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="8" cols="80" id="message"></textarea>
+
+                    </fieldset>
+                        <input type="submit" name="envoyer" value="Envoyer">
+
+                    </form>
                 </section>
             </main>
             <footer>

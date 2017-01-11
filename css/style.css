@@ -41,7 +41,7 @@ a:hover {
     color: yellow;
 }
 a:visited{
-    color:#362;
+    color:rgb(78, 194, 54);
 }
 p{
     color: #3d757a
@@ -49,3 +49,12 @@ p{
 h2{
     color: rgb(78, 194, 54)
 }
+form{
+    width: 40em;
+    color: #3d757a;
+}
+label{
+    display: inline-block;
+    width: 15em;
+}
+input{margin-bottom: 1em;}
